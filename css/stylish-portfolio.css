@@ -45,6 +45,11 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.display-picture{
+  width: 360px;
+  height: 240px;
+}
+
 /* Map */
 .map {
   height: 30rem;
@@ -235,14 +240,15 @@ h6 {
 }
 
 .portfolio-item .caption {
-  display: flex;
+  display: block !important;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: rgba(18, 21, 24, 0.2);
   position: absolute;
   top: 0;
   bottom: 0;
   z-index: 1;
+  padding: 20px 15px 15px 15px !important
 }
 
 .portfolio-item .caption .caption-content {
